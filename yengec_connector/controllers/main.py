@@ -2,7 +2,7 @@ import urllib.parse
 from odoo import http
 from odoo.http import request
 
-YENGEC_SETUP_URL = 'https://app.yengec.co/login/odoo'
+YENGEC_SETUP_URL = 'https://app.yengec.co/auth/callback/odoo'
 YENGEC_API_KEY_PARAM = 'yengec_connector.api_key'
 
 

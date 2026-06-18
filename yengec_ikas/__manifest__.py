@@ -15,5 +15,6 @@
     'data': ['views/ikas_menu.xml'],
     'installable': True,
     'application': True,
+    'images': ['static/description/banner.png'],
     'auto_install': False,
 }

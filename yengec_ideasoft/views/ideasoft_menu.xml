@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_yengec_ideasoft_setup" model="ir.actions.act_url">
+        <field name="name">Ideasoft Setup</field>
+        <field name="url">/yengec/setup/ideasoft</field>
+        <field name="target">new</field>
+    </record>
+    <menuitem
+        id="menu_yengec_ideasoft_root"
+        name="Ideasoft"
+        sequence="107"
+        web_icon="yengec_ideasoft,static/description/icon.png"
+        action="action_yengec_ideasoft_setup"
+    />
+</odoo>

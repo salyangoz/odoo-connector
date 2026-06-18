@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_yengec_shopify_setup" model="ir.actions.act_url">
+        <field name="name">Shopify Setup</field>
+        <field name="url">/yengec/setup/shopify</field>
+        <field name="target">new</field>
+    </record>
+    <menuitem
+        id="menu_yengec_shopify_root"
+        name="Shopify"
+        sequence="104"
+        web_icon="yengec_shopify,static/description/icon.png"
+        action="action_yengec_shopify_setup"
+    />
+</odoo>

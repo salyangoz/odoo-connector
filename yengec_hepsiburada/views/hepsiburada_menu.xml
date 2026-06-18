@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="action_yengec_hepsiburada_setup" model="ir.actions.act_url">
+        <field name="name">Hepsiburada Setup</field>
+        <field name="url">/yengec/setup/hepsiburada</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem
+        id="menu_yengec_hepsiburada_root"
+        name="Hepsiburada"
+        sequence="101"
+        web_icon="yengec_hepsiburada,static/description/icon.png"
+        action="action_yengec_hepsiburada_setup"
+    />
+
+</odoo>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_yengec_amazon_setup" model="ir.actions.act_url">
+        <field name="name">Amazon Setup</field>
+        <field name="url">/yengec/setup/amazon</field>
+        <field name="target">new</field>
+    </record>
+    <menuitem
+        id="menu_yengec_amazon_root"
+        name="Amazon"
+        sequence="103"
+        web_icon="yengec_amazon,static/description/icon.png"
+        action="action_yengec_amazon_setup"
+    />
+</odoo>

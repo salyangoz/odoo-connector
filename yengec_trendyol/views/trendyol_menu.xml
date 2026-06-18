@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_yengec_trendyol_setup" model="ir.actions.act_url">
+        <field name="name">Trendyol Setup</field>
+        <field name="url">/yengec/setup/trendyol</field>
+        <field name="target">new</field>
+    </record>
+    <menuitem
+        id="menu_yengec_trendyol_root"
+        name="Trendyol"
+        sequence="102"
+        web_icon="yengec_trendyol,static/description/icon.png"
+        action="action_yengec_trendyol_setup"
+    />
+</odoo>

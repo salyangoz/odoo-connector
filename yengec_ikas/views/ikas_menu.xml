@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_yengec_ikas_setup" model="ir.actions.act_url">
+        <field name="name">İkas Setup</field>
+        <field name="url">/yengec/setup/ikas</field>
+        <field name="target">new</field>
+    </record>
+    <menuitem
+        id="menu_yengec_ikas_root"
+        name="İkas"
+        sequence="106"
+        web_icon="yengec_ikas,static/description/icon.png"
+        action="action_yengec_ikas_setup"
+    />
+</odoo>

@@ -1,0 +1,30 @@
+# Translation of yengec_amazon to Turkish / Türkçe çevirisi
+# Copyright (C) 2024 Yengeç
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Module yengec_amazon 17.0\n"
+"Report-Msgid-Bugs-To: iletisim@yengec.co\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: Yengeç <iletisim@yengec.co>\n"
+"Language-Team: Turkish <iletisim@yengec.co>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Amazon Connector"
+msgstr "Amazon Bağlayıcı"
+
+msgid "Amazon Setup"
+msgstr "Amazon Kurulum"
+
+msgid "Amazon"
+msgstr "Amazon"
+
+msgid "Sync Odoo with Amazon marketplace"
+msgstr "Odoo'yu Amazon ile senkronize edin"
+
+msgid "Sync Odoo with Amazon store"
+msgstr "Odoo'yu Amazon mağazasıyla senkronize edin"

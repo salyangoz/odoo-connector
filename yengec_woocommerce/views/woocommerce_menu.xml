@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_yengec_woocommerce_setup" model="ir.actions.act_url">
+        <field name="name">WooCommerce Setup</field>
+        <field name="url">/yengec/setup/woocommerce</field>
+        <field name="target">new</field>
+    </record>
+    <menuitem
+        id="menu_yengec_woocommerce_root"
+        name="WooCommerce"
+        sequence="105"
+        web_icon="yengec_woocommerce,static/description/icon.png"
+        action="action_yengec_woocommerce_setup"
+    />
+</odoo>

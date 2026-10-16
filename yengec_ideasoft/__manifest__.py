@@ -1,6 +1,6 @@
 {
     'name': 'Ideasoft Connector',
-    'version': '17.0.1.1.0',
+    'version': '18.0.1.1.0',
     'category': 'eCommerce',
     'summary': 'Sync Odoo with Ideasoft store',
     'description': (

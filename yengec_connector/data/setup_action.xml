@@ -18,7 +18,9 @@ params.set_param('yengec_connector.api_key', False)
 
 # Odoo only stores key hashes, so mint a fresh key for the current user.
 # Earlier keys are kept: Yengeç may still be using one of them.
-api_key = env['res.users.apikeys']._generate('rpc', 'Yengeç Connector')
+# Non-admins may only mint expiring keys (1 day by default) and Odoo has no refresh,
+# so mint a persistent one in sudo. sudo keeps the uid: the key still belongs to the user.
+api_key = env['res.users.apikeys'].sudo()._generate('rpc', 'Yengeç Connector', None)
 
 integration = env.context.get('yengec_integration') or ''
 query = [

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--
+        Shared launcher for every Yengeç app. Kept as data (no Python) so the
+        modules also install on Odoo Online. Apps call it with the
+        yengec_integration context key set to their integration name.
+    -->
+    <record id="action_yengec_setup" model="ir.actions.server">
+        <field name="name">Yengeç Setup</field>
+        <field name="model_id" ref="base.model_res_users"/>
+        <!-- With groups set, Odoo checks membership instead of write access on res.users. -->
+        <field name="groups_id" eval="[(4, ref('base.group_user'))]"/>
+        <field name="state">code</field>
+        <field name="code"><![CDATA[
+params = env['ir.config_parameter'].sudo()
+# Older versions kept one plaintext key here and handed it to every user.
+params.set_param('yengec_connector.api_key', False)
+
+# Odoo only stores key hashes, so mint a fresh key for the current user.
+# Earlier keys are kept: Yengeç may still be using one of them.
+api_key = env['res.users.apikeys']._generate('rpc', 'Yengeç Connector')
+
+integration = env.context.get('yengec_integration') or ''
+query = [
+    ('base_url', params.get_param('web.base.url', '')),
+    ('database', env.cr.dbname),
+    ('username', env.user.login),
+    ('integration', integration),
+    ('utm_source', 'odoo'),
+    ('utm_medium', 'odoo-app'),
+    ('utm_campaign', 'yengec_' + (integration or 'connector')),
+]
+# urllib is not available to server actions, so escape what would break the query string.
+encoded = '&'.join(
+    '%s=%s' % (name, value.replace('%', '%25').replace('&', '%26').replace('#', '%23').replace('+', '%2B').replace(' ', '%20'))
+    for name, value in query
+)
+action = {
+    'type': 'ir.actions.act_url',
+    'target': 'new',
+    # The fragment is never sent to a server, so the key stays out of access logs.
+    'url': 'https://app.yengec.co/auth/odoo?%s#api_key=%s' % (encoded, api_key),
+}
+]]></field>
+    </record>
+</odoo>

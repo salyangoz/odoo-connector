@@ -22,5 +22,5 @@ msgstr "Wix Kurulum"
 msgid "Wix"
 msgstr "Wix"
 
-msgid "Sync Odoo with Wix store"
-msgstr "Odoo'yu Wix mağaza ile senkronize edin"
+msgid "Wix orders, customers, products and stock, synced with Odoo"
+msgstr "Wix siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

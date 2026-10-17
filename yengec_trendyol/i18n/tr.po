@@ -1,11 +1,10 @@
 # Translation of yengec_trendyol to Turkish / Türkçe çevirisi
-# Copyright (C) 2024 Yengeç
+# Copyright (C) 2026 Yengeç
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Module yengec_trendyol 17.0\n"
+"Project-Id-Version: Odoo Module yengec_trendyol 18.0\n"
 "Report-Msgid-Bugs-To: iletisim@yengec.co\n"
-"PO-Revision-Date: 2024-01-01 00:00+0000\n"
 "Last-Translator: Yengeç <iletisim@yengec.co>\n"
 "Language-Team: Turkish <iletisim@yengec.co>\n"
 "Language: tr\n"
@@ -23,8 +22,5 @@ msgstr "Trendyol Kurulum"
 msgid "Trendyol"
 msgstr "Trendyol"
 
-msgid "Sync Odoo with Trendyol marketplace"
-msgstr "Odoo'yu Trendyol ile senkronize edin"
-
-msgid "Sync Odoo with Trendyol store"
-msgstr "Odoo'yu Trendyol mağazasıyla senkronize edin"
+msgid "Trendyol orders, customers, products and stock, synced with Odoo"
+msgstr "Trendyol siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

@@ -22,5 +22,5 @@ msgstr "eBay Kurulum"
 msgid "eBay"
 msgstr "eBay"
 
-msgid "Sync Odoo with eBay marketplace"
-msgstr "Odoo'yu eBay pazaryeri ile senkronize edin"
+msgid "eBay orders, customers, products and stock, synced with Odoo"
+msgstr "eBay siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

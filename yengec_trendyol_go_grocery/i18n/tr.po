@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Trendyol Go Hızlı Market Connector"
-msgstr "Trendyol Go Hızlı Market Bağlayıcı"
+msgid "Trendyol Go Market Connector"
+msgstr "Trendyol Go Market Bağlayıcı"
 
-msgid "Trendyol Go Hızlı Market Setup"
-msgstr "Trendyol Go Hızlı Market Kurulum"
+msgid "Trendyol Go Market Setup"
+msgstr "Trendyol Go Market Kurulum"
 
-msgid "Trendyol Go Hızlı Market"
-msgstr "Trendyol Go Hızlı Market"
+msgid "Trendyol Go Market"
+msgstr "Trendyol Go Market"
 
-msgid "Sync Odoo with Trendyol Go Hızlı Market marketplace"
-msgstr "Odoo'yu Trendyol Go Hızlı Market pazaryeri ile senkronize edin"
+msgid "Trendyol Go Market orders, customers, products and stock, synced with Odoo"
+msgstr "Trendyol Go Market siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

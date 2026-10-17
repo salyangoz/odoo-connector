@@ -2,17 +2,15 @@
     'name': 'PrestaShop Connector',
     'version': '18.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with PrestaShop store',
-    'description': (
-        'Connect your Odoo to PrestaShop via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla PrestaShop ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'PrestaShop orders, customers, products and stock, synced with Odoo',
+    'description': 'Import PrestaShop orders into Odoo as customer invoices and keep PrestaShop customers and products matched to Odoo records, with Odoo stock sent back to PrestaShop. Install it, click the PrestaShop icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/prestashop_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "FarmaBorsa Connector"
-msgstr "FarmaBorsa Bağlayıcı"
+msgid "Farmaborsa Connector"
+msgstr "Farmaborsa Bağlayıcı"
 
-msgid "FarmaBorsa Setup"
-msgstr "FarmaBorsa Kurulum"
+msgid "Farmaborsa Setup"
+msgstr "Farmaborsa Kurulum"
 
-msgid "FarmaBorsa"
-msgstr "FarmaBorsa"
+msgid "Farmaborsa"
+msgstr "Farmaborsa"
 
-msgid "Sync Odoo with FarmaBorsa marketplace"
-msgstr "Odoo'yu FarmaBorsa pazaryeri ile senkronize edin"
+msgid "Farmaborsa orders, customers, products and stock, synced with Odoo"
+msgstr "Farmaborsa siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

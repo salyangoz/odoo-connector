@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="action_yengec_wix_event_launch" model="ir.actions.server">
-        <field name="name">Wix Event Setup</field>
+        <field name="name">Wix Events Setup</field>
         <field name="model_id" ref="base.model_res_users"/>
         <field name="groups_id" eval="[(6, 0, [ref('base.group_system')])]"/>
         <field name="state">code</field>
@@ -9,7 +9,7 @@
     </record>
     <menuitem
         id="menu_yengec_wix_event_root"
-        name="Wix Event"
+        name="Wix Events"
         sequence="134"
         groups="base.group_system"
         web_icon="yengec_wix_event,static/description/icon.png"

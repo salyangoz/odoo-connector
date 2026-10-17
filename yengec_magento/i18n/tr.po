@@ -22,5 +22,5 @@ msgstr "Magento Kurulum"
 msgid "Magento"
 msgstr "Magento"
 
-msgid "Sync Odoo with Magento store"
-msgstr "Odoo'yu Magento mağaza ile senkronize edin"
+msgid "Magento orders, customers, products and stock, synced with Odoo"
+msgstr "Magento siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

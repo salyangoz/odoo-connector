@@ -22,5 +22,5 @@ msgstr "Koçtaş Kurulum"
 msgid "Koçtaş"
 msgstr "Koçtaş"
 
-msgid "Sync Odoo with Koçtaş marketplace"
-msgstr "Odoo'yu Koçtaş pazaryeri ile senkronize edin"
+msgid "Koçtaş orders, customers, products and stock, synced with Odoo"
+msgstr "Koçtaş siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

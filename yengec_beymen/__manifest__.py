@@ -2,17 +2,15 @@
     'name': 'Beymen Connector',
     'version': '18.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with Beymen marketplace',
-    'description': (
-        'Connect your Odoo to Beymen via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla Beymen ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Beymen orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Beymen orders into Odoo as customer invoices and keep Beymen customers and products matched to Odoo records, with Odoo stock sent back to Beymen. Install it, click the Beymen icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/beymen_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

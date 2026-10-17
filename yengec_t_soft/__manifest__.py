@@ -2,17 +2,15 @@
     'name': 'T-Soft Connector',
     'version': '18.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with T-Soft store',
-    'description': (
-        'Connect your Odoo to T-Soft via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla T-Soft ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'T-Soft orders, customers, products and stock, synced with Odoo',
+    'description': 'Import T-Soft orders into Odoo as customer invoices and keep T-Soft customers and products matched to Odoo records, with Odoo stock sent back to T-Soft. Install it, click the T-Soft icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/t_soft_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

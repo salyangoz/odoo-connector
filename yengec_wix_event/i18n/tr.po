@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Wix Event Connector"
-msgstr "Wix Event Bağlayıcı"
+msgid "Wix Events Connector"
+msgstr "Wix Events Bağlayıcı"
 
-msgid "Wix Event Setup"
-msgstr "Wix Event Kurulum"
+msgid "Wix Events Setup"
+msgstr "Wix Events Kurulum"
 
-msgid "Wix Event"
-msgstr "Wix Event"
+msgid "Wix Events"
+msgstr "Wix Events"
 
-msgid "Sync Odoo with Wix Event store"
-msgstr "Odoo'yu Wix Event mağaza ile senkronize edin"
+msgid "Wix Events orders, customers and products, synced with Odoo"
+msgstr "Wix Events siparişleri, müşterileri, ürünleri Odoo ile senkronize"

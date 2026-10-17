@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Wix Booking Connector"
-msgstr "Wix Booking Bağlayıcı"
+msgid "Wix Bookings Connector"
+msgstr "Wix Bookings Bağlayıcı"
 
-msgid "Wix Booking Setup"
-msgstr "Wix Booking Kurulum"
+msgid "Wix Bookings Setup"
+msgstr "Wix Bookings Kurulum"
 
-msgid "Wix Booking"
-msgstr "Wix Booking"
+msgid "Wix Bookings"
+msgstr "Wix Bookings"
 
-msgid "Sync Odoo with Wix Booking store"
-msgstr "Odoo'yu Wix Booking mağaza ile senkronize edin"
+msgid "Wix Bookings orders, customers and products, synced with Odoo"
+msgstr "Wix Bookings siparişleri, müşterileri, ürünleri Odoo ile senkronize"

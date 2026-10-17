@@ -22,5 +22,5 @@ msgstr "Turkcell Pasaj Kurulum"
 msgid "Turkcell Pasaj"
 msgstr "Turkcell Pasaj"
 
-msgid "Sync Odoo with Turkcell Pasaj marketplace"
-msgstr "Odoo'yu Turkcell Pasaj pazaryeri ile senkronize edin"
+msgid "Turkcell Pasaj orders, customers, products and stock, synced with Odoo"
+msgstr "Turkcell Pasaj siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

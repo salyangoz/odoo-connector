@@ -1,18 +1,16 @@
 {
-    'name': 'FarmaBorsa Connector',
+    'name': 'Farmaborsa Connector',
     'version': '18.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with FarmaBorsa marketplace',
-    'description': (
-        'Connect your Odoo to FarmaBorsa via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla FarmaBorsa ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Farmaborsa orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Farmaborsa orders into Odoo as customer invoices and keep Farmaborsa customers and products matched to Odoo records, with Odoo stock sent back to Farmaborsa. Install it, click the Farmaborsa icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/farmaborsa_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Flo Connector"
-msgstr "Flo Bağlayıcı"
+msgid "FLO Connector"
+msgstr "FLO Bağlayıcı"
 
-msgid "Flo Setup"
-msgstr "Flo Kurulum"
+msgid "FLO Setup"
+msgstr "FLO Kurulum"
 
-msgid "Flo"
-msgstr "Flo"
+msgid "FLO"
+msgstr "FLO"
 
-msgid "Sync Odoo with Flo marketplace"
-msgstr "Odoo'yu Flo pazaryeri ile senkronize edin"
+msgid "FLO orders, customers, products and stock, synced with Odoo"
+msgstr "FLO siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

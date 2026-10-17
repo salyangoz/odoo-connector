@@ -1,0 +1,19 @@
+{
+    'name': 'Trendyol Go Yemek Connector',
+    'version': '20.0.1.0.0',
+    'category': 'eCommerce',
+    'summary': 'Sync Odoo with Trendyol Go Yemek marketplace',
+    'description': (
+        'Connect your Odoo to Trendyol Go Yemek via Yengeç – guided setup. '
+        'Odoo\'yu Yengeç aracılığıyla Trendyol Go Yemek ile bağlayın – adım adım kurulum.'
+    ),
+    'author': 'Yengeç',
+    'website': 'https://yengec.co',
+    'support': 'iletisim@yengec.co',
+    'license': 'LGPL-3',
+    'depends': ['yengec_connector'],
+    'data': ['views/trendyol_go_meal_menu.xml'],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}

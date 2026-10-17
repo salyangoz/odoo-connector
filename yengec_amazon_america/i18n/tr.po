@@ -1,0 +1,26 @@
+# Translation of yengec_amazon_america to Turkish / Türkçe çevirisi
+# Copyright (C) 2026 Yengeç
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Module yengec_amazon_america 20.0\n"
+"Report-Msgid-Bugs-To: iletisim@yengec.co\n"
+"Last-Translator: Yengeç <iletisim@yengec.co>\n"
+"Language-Team: Turkish <iletisim@yengec.co>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Amazon Seller America Connector"
+msgstr "Amazon Seller America Bağlayıcı"
+
+msgid "Amazon Seller America Setup"
+msgstr "Amazon Seller America Kurulum"
+
+msgid "Amazon Seller America"
+msgstr "Amazon Seller America"
+
+msgid "Sync Odoo with Amazon Seller America marketplace"
+msgstr "Odoo'yu Amazon Seller America pazaryeri ile senkronize edin"

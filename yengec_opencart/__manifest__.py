@@ -1,0 +1,19 @@
+{
+    'name': 'OpenCart Connector',
+    'version': '18.0.1.0.0',
+    'category': 'eCommerce',
+    'summary': 'Sync Odoo with OpenCart store',
+    'description': (
+        'Connect your Odoo to OpenCart via Yengeç – guided setup. '
+        'Odoo\'yu Yengeç aracılığıyla OpenCart ile bağlayın – adım adım kurulum.'
+    ),
+    'author': 'Yengeç',
+    'website': 'https://yengec.co',
+    'support': 'iletisim@yengec.co',
+    'license': 'LGPL-3',
+    'depends': ['yengec_connector'],
+    'data': ['views/opencart_menu.xml'],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}

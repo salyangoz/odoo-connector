@@ -1,0 +1,17 @@
+{
+    'name': 'Trendyol İhracat Connector',
+    'version': '20.0.1.0.0',
+    'category': 'eCommerce',
+    'summary': 'Trendyol İhracat orders, customers and products, synced with Odoo',
+    'description': 'Import Trendyol İhracat orders into Odoo as customer invoices and keep Trendyol İhracat customers and products matched to Odoo records. Install it, click the Trendyol İhracat icon in Odoo and Yengeç opens with your Odoo connected.',
+    'author': 'Yengeç',
+    'website': 'https://yengec.co',
+    'support': 'iletisim@yengec.co',
+    'license': 'LGPL-3',
+    'depends': ['yengec_connector'],
+    'data': ['views/trendyol_ihracat_menu.xml'],
+    'images': ['static/description/banner.png'],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}

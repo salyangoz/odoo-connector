@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_yengec_novadan_launch" model="ir.actions.server">
+        <field name="name">Novadan Setup</field>
+        <field name="model_id" ref="base.model_res_users"/>
+        <field name="group_ids" eval="[(6, 0, [ref('base.group_system')])]"/>
+        <field name="state">code</field>
+        <field name="code">action = env.ref('yengec_connector.action_yengec_setup').with_context(yengec_integration='novadan').run()</field>
+    </record>
+    <menuitem
+        id="menu_yengec_novadan_root"
+        name="Novadan"
+        sequence="145"
+        groups="base.group_system"
+        web_icon="yengec_novadan,static/description/icon.png"
+        action="action_yengec_novadan_launch"
+    />
+</odoo>

@@ -1,0 +1,26 @@
+# Translation of yengec_wix_event to Turkish / Türkçe çevirisi
+# Copyright (C) 2026 Yengeç
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Module yengec_wix_event 20.0\n"
+"Report-Msgid-Bugs-To: iletisim@yengec.co\n"
+"Last-Translator: Yengeç <iletisim@yengec.co>\n"
+"Language-Team: Turkish <iletisim@yengec.co>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Wix Events Connector"
+msgstr "Wix Events Bağlayıcı"
+
+msgid "Wix Events Setup"
+msgstr "Wix Events Kurulum"
+
+msgid "Wix Events"
+msgstr "Wix Events"
+
+msgid "Wix Events orders, customers and products, synced with Odoo"
+msgstr "Wix Events siparişleri, müşterileri, ürünleri Odoo ile senkronize"

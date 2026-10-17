@@ -1,0 +1,17 @@
+{
+    'name': 'Ticimax Connector',
+    'version': '17.0.1.0.0',
+    'category': 'eCommerce',
+    'summary': 'Ticimax orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Ticimax orders into Odoo as customer invoices and keep Ticimax customers and products matched to Odoo records, with Odoo stock sent back to Ticimax. Install it, click the Ticimax icon in Odoo and Yengeç opens with your Odoo connected.',
+    'author': 'Yengeç',
+    'website': 'https://yengec.co',
+    'support': 'iletisim@yengec.co',
+    'license': 'LGPL-3',
+    'depends': ['yengec_connector'],
+    'data': ['views/ticimax_menu.xml'],
+    'images': ['static/description/banner.png'],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}

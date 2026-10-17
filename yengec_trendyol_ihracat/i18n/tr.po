@@ -22,5 +22,5 @@ msgstr "Trendyol İhracat Kurulum"
 msgid "Trendyol İhracat"
 msgstr "Trendyol İhracat"
 
-msgid "Sync Odoo with Trendyol İhracat marketplace"
-msgstr "Odoo'yu Trendyol İhracat pazaryeri ile senkronize edin"
+msgid "Trendyol İhracat orders, customers and products, synced with Odoo"
+msgstr "Trendyol İhracat siparişleri, müşterileri, ürünleri Odoo ile senkronize"

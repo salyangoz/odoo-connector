@@ -1,18 +1,16 @@
 {
-    'name': 'Wix Booking Connector',
+    'name': 'Wix Bookings Connector',
     'version': '20.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with Wix Booking store',
-    'description': (
-        'Connect your Odoo to Wix Booking via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla Wix Booking ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Wix Bookings orders, customers and products, synced with Odoo',
+    'description': 'Import Wix Bookings orders into Odoo as customer invoices and keep Wix Bookings customers and products matched to Odoo records. Install it, click the Wix Bookings icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/wix_booking_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

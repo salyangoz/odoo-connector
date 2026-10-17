@@ -1,18 +1,16 @@
 {
-    'name': 'Trendyol Go Hızlı Market Connector',
+    'name': 'Trendyol Go Market Connector',
     'version': '20.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with Trendyol Go Hızlı Market marketplace',
-    'description': (
-        'Connect your Odoo to Trendyol Go Hızlı Market via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla Trendyol Go Hızlı Market ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Trendyol Go Market orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Trendyol Go Market orders into Odoo as customer invoices and keep Trendyol Go Market customers and products matched to Odoo records, with Odoo stock sent back to Trendyol Go Market. Install it, click the Trendyol Go Market icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/trendyol_go_grocery_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

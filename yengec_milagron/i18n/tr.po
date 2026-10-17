@@ -22,5 +22,5 @@ msgstr "Milagron Kurulum"
 msgid "Milagron"
 msgstr "Milagron"
 
-msgid "Sync Odoo with Milagron marketplace"
-msgstr "Odoo'yu Milagron pazaryeri ile senkronize edin"
+msgid "Milagron orders, customers, products and stock, synced with Odoo"
+msgstr "Milagron siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

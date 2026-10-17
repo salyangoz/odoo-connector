@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="action_yengec_farmaborsa_launch" model="ir.actions.server">
-        <field name="name">FarmaBorsa Setup</field>
+        <field name="name">Farmaborsa Setup</field>
         <field name="model_id" ref="base.model_res_users"/>
         <field name="group_ids" eval="[(6, 0, [ref('base.group_system')])]"/>
         <field name="state">code</field>
@@ -9,7 +9,7 @@
     </record>
     <menuitem
         id="menu_yengec_farmaborsa_root"
-        name="FarmaBorsa"
+        name="Farmaborsa"
         sequence="143"
         groups="base.group_system"
         web_icon="yengec_farmaborsa,static/description/icon.png"

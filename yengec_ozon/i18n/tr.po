@@ -22,5 +22,5 @@ msgstr "Ozon Kurulum"
 msgid "Ozon"
 msgstr "Ozon"
 
-msgid "Sync Odoo with Ozon marketplace"
-msgstr "Odoo'yu Ozon pazaryeri ile senkronize edin"
+msgid "Ozon orders, customers, products and stock, synced with Odoo"
+msgstr "Ozon siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

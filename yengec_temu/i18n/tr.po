@@ -22,5 +22,5 @@ msgstr "Temu Kurulum"
 msgid "Temu"
 msgstr "Temu"
 
-msgid "Sync Odoo with Temu marketplace"
-msgstr "Odoo'yu Temu pazaryeri ile senkronize edin"
+msgid "Temu orders, customers, products and stock, synced with Odoo"
+msgstr "Temu siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

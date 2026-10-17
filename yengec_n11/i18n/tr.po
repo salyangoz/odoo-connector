@@ -22,5 +22,5 @@ msgstr "n11 Kurulum"
 msgid "n11"
 msgstr "n11"
 
-msgid "Sync Odoo with n11 marketplace"
-msgstr "Odoo'yu n11 pazaryeri ile senkronize edin"
+msgid "n11 orders, customers, products and stock, synced with Odoo"
+msgstr "n11 siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

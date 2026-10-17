@@ -1,22 +1,17 @@
 {
     'name': 'Hepsiburada Connector',
-    'version': '20.0.1.2.0',
+    'version': '20.0.1.3.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with Hepsiburada marketplace',
-    'description': (
-        'Connect your Odoo to Hepsiburada via Yengeç – guided setup wizard. '
-        'Odoo\'yu Yengeç aracılığıyla Hepsiburada\'ya bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Hepsiburada orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Hepsiburada orders into Odoo as customer invoices and keep Hepsiburada customers and products matched to Odoo records, with Odoo stock sent back to Hepsiburada. Install it, click the Hepsiburada icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
-    'data': [
-        'views/hepsiburada_menu.xml',
-    ],
+    'data': ['views/hepsiburada_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
-    'images': ['static/description/banner.png'],
     'auto_install': False,
 }

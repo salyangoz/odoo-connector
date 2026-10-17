@@ -2,17 +2,15 @@
     'name': 'Teknosa Connector',
     'version': '20.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with Teknosa marketplace',
-    'description': (
-        'Connect your Odoo to Teknosa via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla Teknosa ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Teknosa orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Teknosa orders into Odoo as customer invoices and keep Teknosa customers and products matched to Odoo records, with Odoo stock sent back to Teknosa. Install it, click the Teknosa icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/teknosa_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

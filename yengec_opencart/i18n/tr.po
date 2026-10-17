@@ -22,5 +22,5 @@ msgstr "OpenCart Kurulum"
 msgid "OpenCart"
 msgstr "OpenCart"
 
-msgid "Sync Odoo with OpenCart store"
-msgstr "Odoo'yu OpenCart mağaza ile senkronize edin"
+msgid "OpenCart orders, customers, products and stock, synced with Odoo"
+msgstr "OpenCart siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

@@ -22,5 +22,5 @@ msgstr "Boyner Kurulum"
 msgid "Boyner"
 msgstr "Boyner"
 
-msgid "Sync Odoo with Boyner marketplace"
-msgstr "Odoo'yu Boyner pazaryeri ile senkronize edin"
+msgid "Boyner orders, customers, products and stock, synced with Odoo"
+msgstr "Boyner siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

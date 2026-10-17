@@ -22,5 +22,5 @@ msgstr "PrestaShop Kurulum"
 msgid "PrestaShop"
 msgstr "PrestaShop"
 
-msgid "Sync Odoo with PrestaShop store"
-msgstr "Odoo'yu PrestaShop mağaza ile senkronize edin"
+msgid "PrestaShop orders, customers, products and stock, synced with Odoo"
+msgstr "PrestaShop siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

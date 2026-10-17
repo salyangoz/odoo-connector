@@ -1,6 +1,6 @@
 {
     'name': 'Yengeç Connector',
-    'version': '17.0.1.0.0',
+    'version': '18.0.1.1.0',
     'category': 'Extra Tools',
     'summary': 'Connect Odoo to Yengeç – guided setup',
     'description': (
@@ -12,7 +12,7 @@
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['base', 'web'],
-    'data': [],
+    'data': ['data/setup_action.xml'],
     'installable': True,
     'application': False,
     'auto_install': False,

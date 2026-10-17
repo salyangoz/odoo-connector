@@ -1,11 +1,10 @@
 # Translation of yengec_ideasoft to Turkish / Türkçe çevirisi
-# Copyright (C) 2024 Yengeç
+# Copyright (C) 2026 Yengeç
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Module yengec_ideasoft 17.0\n"
+"Project-Id-Version: Odoo Module yengec_ideasoft 18.0\n"
 "Report-Msgid-Bugs-To: iletisim@yengec.co\n"
-"PO-Revision-Date: 2024-01-01 00:00+0000\n"
 "Last-Translator: Yengeç <iletisim@yengec.co>\n"
 "Language-Team: Turkish <iletisim@yengec.co>\n"
 "Language: tr\n"
@@ -14,17 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Ideasoft Connector"
-msgstr "Ideasoft Bağlayıcı"
+msgid "IdeaSoft Connector"
+msgstr "IdeaSoft Bağlayıcı"
 
-msgid "Ideasoft Setup"
-msgstr "Ideasoft Kurulum"
+msgid "IdeaSoft Setup"
+msgstr "IdeaSoft Kurulum"
 
-msgid "Ideasoft"
-msgstr "Ideasoft"
+msgid "IdeaSoft"
+msgstr "IdeaSoft"
 
-msgid "Sync Odoo with Ideasoft marketplace"
-msgstr "Odoo'yu Ideasoft ile senkronize edin"
-
-msgid "Sync Odoo with Ideasoft store"
-msgstr "Odoo'yu Ideasoft mağazasıyla senkronize edin"
+msgid "IdeaSoft orders, customers, products and stock, synced with Odoo"
+msgstr "IdeaSoft siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

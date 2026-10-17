@@ -1,0 +1,26 @@
+# Translation of yengec_turkcell_pasaj to Turkish / Türkçe çevirisi
+# Copyright (C) 2026 Yengeç
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Module yengec_turkcell_pasaj 18.0\n"
+"Report-Msgid-Bugs-To: iletisim@yengec.co\n"
+"Last-Translator: Yengeç <iletisim@yengec.co>\n"
+"Language-Team: Turkish <iletisim@yengec.co>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Turkcell Pasaj Connector"
+msgstr "Turkcell Pasaj Bağlayıcı"
+
+msgid "Turkcell Pasaj Setup"
+msgstr "Turkcell Pasaj Kurulum"
+
+msgid "Turkcell Pasaj"
+msgstr "Turkcell Pasaj"
+
+msgid "Turkcell Pasaj orders, customers, products and stock, synced with Odoo"
+msgstr "Turkcell Pasaj siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

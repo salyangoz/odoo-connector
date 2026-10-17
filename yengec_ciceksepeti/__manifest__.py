@@ -1,0 +1,17 @@
+{
+    'name': 'Çiçeksepeti Connector',
+    'version': '18.0.1.0.0',
+    'category': 'eCommerce',
+    'summary': 'Çiçeksepeti orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Çiçeksepeti orders into Odoo as customer invoices and keep Çiçeksepeti customers and products matched to Odoo records, with Odoo stock sent back to Çiçeksepeti. Install it, click the Çiçeksepeti icon in Odoo and Yengeç opens with your Odoo connected.',
+    'author': 'Yengeç',
+    'website': 'https://yengec.co',
+    'support': 'iletisim@yengec.co',
+    'license': 'LGPL-3',
+    'depends': ['yengec_connector'],
+    'data': ['views/ciceksepeti_menu.xml'],
+    'images': ['static/description/banner.png'],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}

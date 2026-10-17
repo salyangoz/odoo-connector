@@ -1,6 +1,6 @@
 {
     'name': 'WooCommerce Connector',
-    'version': '17.0.1.0.0',
+    'version': '17.0.1.1.0',
     'category': 'eCommerce',
     'summary': 'Sync Odoo with WooCommerce store',
     'description': (

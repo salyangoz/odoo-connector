@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="action_yengec_ptt_avm_launch" model="ir.actions.server">
-        <field name="name">PttAVM Setup</field>
+        <field name="name">PTT AVM Setup</field>
         <field name="model_id" ref="base.model_res_users"/>
         <field name="groups_id" eval="[(4, ref('base.group_user'))]"/>
         <field name="state">code</field>
@@ -9,7 +9,7 @@
     </record>
     <menuitem
         id="menu_yengec_ptt_avm_root"
-        name="PttAVM"
+        name="PTT AVM"
         sequence="111"
         web_icon="yengec_ptt_avm,static/description/icon.png"
         action="action_yengec_ptt_avm_launch"

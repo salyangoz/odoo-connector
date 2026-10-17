@@ -22,5 +22,5 @@ msgstr "T-Soft Kurulum"
 msgid "T-Soft"
 msgstr "T-Soft"
 
-msgid "Sync Odoo with T-Soft store"
-msgstr "Odoo'yu T-Soft mağaza ile senkronize edin"
+msgid "T-Soft orders, customers, products and stock, synced with Odoo"
+msgstr "T-Soft siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

@@ -22,5 +22,5 @@ msgstr "Farmazon Kurulum"
 msgid "Farmazon"
 msgstr "Farmazon"
 
-msgid "Sync Odoo with Farmazon marketplace"
-msgstr "Odoo'yu Farmazon pazaryeri ile senkronize edin"
+msgid "Farmazon orders, customers, products and stock, synced with Odoo"
+msgstr "Farmazon siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

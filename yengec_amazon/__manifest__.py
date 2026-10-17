@@ -1,20 +1,17 @@
 {
     'name': 'Amazon Connector',
-    'version': '17.0.1.1.0',
+    'version': '17.0.1.2.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with Amazon marketplace',
-    'description': (
-        'Connect your Odoo to Amazon via Yengeç – guided setup wizard. '
-        'Odoo\'yu Yengeç aracılığıyla Amazon\'a bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Amazon orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Amazon orders into Odoo as customer invoices and keep Amazon customers and products matched to Odoo records, with Odoo stock sent back to Amazon. Install it, click the Amazon icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/amazon_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
-    'images': ['static/description/banner.png'],
     'auto_install': False,
 }

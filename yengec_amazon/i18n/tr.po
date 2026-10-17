@@ -1,11 +1,10 @@
 # Translation of yengec_amazon to Turkish / Türkçe çevirisi
-# Copyright (C) 2024 Yengeç
+# Copyright (C) 2026 Yengeç
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Module yengec_amazon 17.0\n"
 "Report-Msgid-Bugs-To: iletisim@yengec.co\n"
-"PO-Revision-Date: 2024-01-01 00:00+0000\n"
 "Last-Translator: Yengeç <iletisim@yengec.co>\n"
 "Language-Team: Turkish <iletisim@yengec.co>\n"
 "Language: tr\n"
@@ -23,8 +22,5 @@ msgstr "Amazon Kurulum"
 msgid "Amazon"
 msgstr "Amazon"
 
-msgid "Sync Odoo with Amazon marketplace"
-msgstr "Odoo'yu Amazon ile senkronize edin"
-
-msgid "Sync Odoo with Amazon store"
-msgstr "Odoo'yu Amazon mağazasıyla senkronize edin"
+msgid "Amazon orders, customers, products and stock, synced with Odoo"
+msgstr "Amazon siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

@@ -1,11 +1,10 @@
 # Translation of yengec_ikas to Turkish / Türkçe çevirisi
-# Copyright (C) 2024 Yengeç
+# Copyright (C) 2026 Yengeç
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Module yengec_ikas 17.0\n"
 "Report-Msgid-Bugs-To: iletisim@yengec.co\n"
-"PO-Revision-Date: 2024-01-01 00:00+0000\n"
 "Last-Translator: Yengeç <iletisim@yengec.co>\n"
 "Language-Team: Turkish <iletisim@yengec.co>\n"
 "Language: tr\n"
@@ -14,17 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "İkas Connector"
-msgstr "İkas Bağlayıcı"
+msgid "ikas Connector"
+msgstr "ikas Bağlayıcı"
 
-msgid "İkas Setup"
-msgstr "İkas Kurulum"
+msgid "ikas Setup"
+msgstr "ikas Kurulum"
 
-msgid "İkas"
-msgstr "İkas"
+msgid "ikas"
+msgstr "ikas"
 
-msgid "Sync Odoo with İkas marketplace"
-msgstr "Odoo'yu İkas ile senkronize edin"
-
-msgid "Sync Odoo with İkas store"
-msgstr "Odoo'yu İkas mağazasıyla senkronize edin"
+msgid "ikas orders, customers, products and stock, synced with Odoo"
+msgstr "ikas siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

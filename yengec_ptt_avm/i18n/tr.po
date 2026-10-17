@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "PttAVM Connector"
-msgstr "PttAVM Bağlayıcı"
+msgid "PTT AVM Connector"
+msgstr "PTT AVM Bağlayıcı"
 
-msgid "PttAVM Setup"
-msgstr "PttAVM Kurulum"
+msgid "PTT AVM Setup"
+msgstr "PTT AVM Kurulum"
 
-msgid "PttAVM"
-msgstr "PttAVM"
+msgid "PTT AVM"
+msgstr "PTT AVM"
 
-msgid "Sync Odoo with PttAVM marketplace"
-msgstr "Odoo'yu PttAVM pazaryeri ile senkronize edin"
+msgid "PTT AVM orders, customers, products and stock, synced with Odoo"
+msgstr "PTT AVM siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

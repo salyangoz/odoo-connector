@@ -2,17 +2,15 @@
     'name': 'Koçtaş Connector',
     'version': '17.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with Koçtaş marketplace',
-    'description': (
-        'Connect your Odoo to Koçtaş via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla Koçtaş ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Koçtaş orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Koçtaş orders into Odoo as customer invoices and keep Koçtaş customers and products matched to Odoo records, with Odoo stock sent back to Koçtaş. Install it, click the Koçtaş icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/koctas_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

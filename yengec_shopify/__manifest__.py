@@ -1,20 +1,17 @@
 {
     'name': 'Shopify Connector',
-    'version': '17.0.1.1.0',
+    'version': '17.0.1.2.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with Shopify store',
-    'description': (
-        'Connect your Odoo to Shopify via Yengeç – guided setup wizard. '
-        'Odoo\'yu Yengeç aracılığıyla Shopify\'a bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Shopify orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Shopify orders into Odoo as customer invoices and keep Shopify customers and products matched to Odoo records, with Odoo stock sent back to Shopify. Install it, click the Shopify icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/shopify_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
-    'images': ['static/description/banner.png'],
     'auto_install': False,
 }

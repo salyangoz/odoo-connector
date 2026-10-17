@@ -1,6 +1,6 @@
 {
     'name': 'Yengeç Connector',
-    'version': '19.0.1.2.0',
+    'version': '20.0.1.2.0',
     'category': 'Extra Tools',
     'summary': 'Connect Odoo to Yengeç – guided setup',
     'description': (

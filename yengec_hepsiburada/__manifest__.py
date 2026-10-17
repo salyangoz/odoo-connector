@@ -1,6 +1,6 @@
 {
     'name': 'Hepsiburada Connector',
-    'version': '19.0.1.2.0',
+    'version': '20.0.1.2.0',
     'category': 'eCommerce',
     'summary': 'Sync Odoo with Hepsiburada marketplace',
     'description': (

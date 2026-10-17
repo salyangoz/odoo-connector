@@ -1,20 +1,17 @@
 {
-    'name': 'İkas Connector',
-    'version': '19.0.1.2.0',
+    'name': 'ikas Connector',
+    'version': '19.0.1.3.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with İkas store',
-    'description': (
-        'Connect your Odoo to İkas via Yengeç – guided setup wizard. '
-        'Odoo\'yu Yengeç aracılığıyla İkas\'a bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'ikas orders, customers, products and stock, synced with Odoo',
+    'description': 'Import ikas orders into Odoo as customer invoices and keep ikas customers and products matched to Odoo records, with Odoo stock sent back to ikas. Install it, click the ikas icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/ikas_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
-    'images': ['static/description/banner.png'],
     'auto_install': False,
 }

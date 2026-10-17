@@ -1,0 +1,17 @@
+{
+    'name': 'Amazon Global Connector',
+    'version': '19.0.1.0.0',
+    'category': 'eCommerce',
+    'summary': 'Amazon Global orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Amazon Global orders into Odoo as customer invoices and keep Amazon Global customers and products matched to Odoo records, with Odoo stock sent back to Amazon Global. Install it, click the Amazon Global icon in Odoo and Yengeç opens with your Odoo connected.',
+    'author': 'Yengeç',
+    'website': 'https://yengec.co',
+    'support': 'iletisim@yengec.co',
+    'license': 'LGPL-3',
+    'depends': ['yengec_connector'],
+    'data': ['views/amazon_global_menu.xml'],
+    'images': ['static/description/banner.png'],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}

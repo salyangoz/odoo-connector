@@ -1,0 +1,26 @@
+# Translation of yengec_trendyol_ihracat to Turkish / Türkçe çevirisi
+# Copyright (C) 2026 Yengeç
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Module yengec_trendyol_ihracat 19.0\n"
+"Report-Msgid-Bugs-To: iletisim@yengec.co\n"
+"Last-Translator: Yengeç <iletisim@yengec.co>\n"
+"Language-Team: Turkish <iletisim@yengec.co>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Trendyol İhracat Connector"
+msgstr "Trendyol İhracat Bağlayıcı"
+
+msgid "Trendyol İhracat Setup"
+msgstr "Trendyol İhracat Kurulum"
+
+msgid "Trendyol İhracat"
+msgstr "Trendyol İhracat"
+
+msgid "Trendyol İhracat orders, customers and products, synced with Odoo"
+msgstr "Trendyol İhracat siparişleri, müşterileri, ürünleri Odoo ile senkronize"

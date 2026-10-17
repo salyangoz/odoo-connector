@@ -1,0 +1,17 @@
+{
+    'name': 'Amazon Vendor Connector',
+    'version': '19.0.1.0.0',
+    'category': 'eCommerce',
+    'summary': 'Amazon Vendor orders, customers and products, synced with Odoo',
+    'description': 'Import Amazon Vendor orders into Odoo as customer invoices and keep Amazon Vendor customers and products matched to Odoo records. Install it, click the Amazon Vendor icon in Odoo and Yengeç opens with your Odoo connected.',
+    'author': 'Yengeç',
+    'website': 'https://yengec.co',
+    'support': 'iletisim@yengec.co',
+    'license': 'LGPL-3',
+    'depends': ['yengec_connector'],
+    'data': ['views/amazon_vendor_menu.xml'],
+    'images': ['static/description/banner.png'],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}

@@ -1,0 +1,26 @@
+# Translation of yengec_wix_booking to Turkish / Türkçe çevirisi
+# Copyright (C) 2026 Yengeç
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Module yengec_wix_booking 19.0\n"
+"Report-Msgid-Bugs-To: iletisim@yengec.co\n"
+"Last-Translator: Yengeç <iletisim@yengec.co>\n"
+"Language-Team: Turkish <iletisim@yengec.co>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Wix Bookings Connector"
+msgstr "Wix Bookings Bağlayıcı"
+
+msgid "Wix Bookings Setup"
+msgstr "Wix Bookings Kurulum"
+
+msgid "Wix Bookings"
+msgstr "Wix Bookings"
+
+msgid "Wix Bookings orders, customers and products, synced with Odoo"
+msgstr "Wix Bookings siparişleri, müşterileri, ürünleri Odoo ile senkronize"

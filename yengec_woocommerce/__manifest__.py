@@ -1,20 +1,17 @@
 {
     'name': 'WooCommerce Connector',
-    'version': '19.0.1.2.0',
+    'version': '19.0.1.3.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with WooCommerce store',
-    'description': (
-        'Connect your Odoo to WooCommerce via Yengeç – guided setup wizard. '
-        'Odoo\'yu Yengeç aracılığıyla WooCommerce\'e bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'WooCommerce orders, customers, products and stock, synced with Odoo',
+    'description': 'Import WooCommerce orders into Odoo as customer invoices and keep WooCommerce customers and products matched to Odoo records, with Odoo stock sent back to WooCommerce. Install it, click the WooCommerce icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/woocommerce_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
-    'images': ['static/description/banner.png'],
     'auto_install': False,
 }

@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Amazon Seller America Connector"
-msgstr "Amazon Seller America Bağlayıcı"
+msgid "Amazon America Connector"
+msgstr "Amazon America Bağlayıcı"
 
-msgid "Amazon Seller America Setup"
-msgstr "Amazon Seller America Kurulum"
+msgid "Amazon America Setup"
+msgstr "Amazon America Kurulum"
 
-msgid "Amazon Seller America"
-msgstr "Amazon Seller America"
+msgid "Amazon America"
+msgstr "Amazon America"
 
-msgid "Sync Odoo with Amazon Seller America marketplace"
-msgstr "Odoo'yu Amazon Seller America pazaryeri ile senkronize edin"
+msgid "Amazon America orders, customers, products and stock, synced with Odoo"
+msgstr "Amazon America siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

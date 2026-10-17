@@ -22,5 +22,5 @@ msgstr "idefix Kurulum"
 msgid "idefix"
 msgstr "idefix"
 
-msgid "Sync Odoo with idefix marketplace"
-msgstr "Odoo'yu idefix pazaryeri ile senkronize edin"
+msgid "idefix orders, customers, products and stock, synced with Odoo"
+msgstr "idefix siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Amazon Seller Europe Connector"
-msgstr "Amazon Seller Europe Bağlayıcı"
+msgid "Amazon Europe Connector"
+msgstr "Amazon Europe Bağlayıcı"
 
-msgid "Amazon Seller Europe Setup"
-msgstr "Amazon Seller Europe Kurulum"
+msgid "Amazon Europe Setup"
+msgstr "Amazon Europe Kurulum"
 
-msgid "Amazon Seller Europe"
-msgstr "Amazon Seller Europe"
+msgid "Amazon Europe"
+msgstr "Amazon Europe"
 
-msgid "Sync Odoo with Amazon Seller Europe marketplace"
-msgstr "Odoo'yu Amazon Seller Europe pazaryeri ile senkronize edin"
+msgid "Amazon Europe orders, customers, products and stock, synced with Odoo"
+msgstr "Amazon Europe siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

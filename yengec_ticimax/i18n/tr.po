@@ -22,5 +22,5 @@ msgstr "Ticimax Kurulum"
 msgid "Ticimax"
 msgstr "Ticimax"
 
-msgid "Sync Odoo with Ticimax store"
-msgstr "Odoo'yu Ticimax mağaza ile senkronize edin"
+msgid "Ticimax orders, customers, products and stock, synced with Odoo"
+msgstr "Ticimax siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

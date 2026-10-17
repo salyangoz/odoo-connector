@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Wix Payment Connector"
-msgstr "Wix Payment Bağlayıcı"
+msgid "Wix Payments Connector"
+msgstr "Wix Payments Bağlayıcı"
 
-msgid "Wix Payment Setup"
-msgstr "Wix Payment Kurulum"
+msgid "Wix Payments Setup"
+msgstr "Wix Payments Kurulum"
 
-msgid "Wix Payment"
-msgstr "Wix Payment"
+msgid "Wix Payments"
+msgstr "Wix Payments"
 
-msgid "Sync Odoo with Wix Payment store"
-msgstr "Odoo'yu Wix Payment mağaza ile senkronize edin"
+msgid "Wix Payments orders, customers and products, synced with Odoo"
+msgstr "Wix Payments siparişleri, müşterileri, ürünleri Odoo ile senkronize"

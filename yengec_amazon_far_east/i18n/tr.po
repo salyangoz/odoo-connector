@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Amazon Seller Far East Connector"
-msgstr "Amazon Seller Far East Bağlayıcı"
+msgid "Amazon Far East Connector"
+msgstr "Amazon Far East Bağlayıcı"
 
-msgid "Amazon Seller Far East Setup"
-msgstr "Amazon Seller Far East Kurulum"
+msgid "Amazon Far East Setup"
+msgstr "Amazon Far East Kurulum"
 
-msgid "Amazon Seller Far East"
-msgstr "Amazon Seller Far East"
+msgid "Amazon Far East"
+msgstr "Amazon Far East"
 
-msgid "Sync Odoo with Amazon Seller Far East marketplace"
-msgstr "Odoo'yu Amazon Seller Far East pazaryeri ile senkronize edin"
+msgid "Amazon Far East orders, customers, products and stock, synced with Odoo"
+msgstr "Amazon Far East siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

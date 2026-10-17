@@ -1,26 +1,146 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head><meta charset="UTF-8"/></head>
-<body>
-<section class="oe_container">
-  <div class="oe_row oe_spaced">
-    <div class="oe_span12">
-      <h2 class="oe_slogan">FarmaBorsa Connector</h2>
-      <h3 class="oe_slogan">Connect Odoo to FarmaBorsa through Yengeç</h3>
-      <ol>
-        <li>Install <strong>FarmaBorsa Connector</strong> for free.</li>
-        <li>An Odoo administrator clicks the <strong>FarmaBorsa</strong> icon in the home menu.</li>
-        <li>Yengeç opens with your Odoo connected and takes you to your FarmaBorsa integration.</li>
-      </ol>
-      <h3 class="oe_slogan">Odoo'yu Yengeç ile FarmaBorsa'a bağlayın</h3>
-      <ol>
-        <li><strong>FarmaBorsa Connector</strong>'ı ücretsiz yükleyin.</li>
-        <li>Bir Odoo yöneticisi ana menüdeki <strong>FarmaBorsa</strong> simgesine tıklar.</li>
-        <li>Yengeç, Odoo'nuz bağlı olarak açılır ve sizi FarmaBorsa entegrasyonunuza götürür.</li>
-      </ol>
-      <p>Support: <a href="mailto:iletisim@yengec.co">iletisim@yengec.co</a> · <a href="https://yengec.co">yengec.co</a></p>
+<section style="font-family:Oxygen,&quot;Helvetica Neue&quot;,Arial,sans-serif;max-width:1140px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;color:#475467;">
+  <div style="background:#f6f5f3;padding:64px 64px 48px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;">
+    <div style="display:flex;align-items:center;gap:20px;">
+      <img src="logo.png" width="64" height="64" alt="Farmaborsa" style="width:64px;height:64px;border-radius:14px;">
+      <img src="icons/sync_alt-667085.png" width="24" height="24" alt="" style="display:block;width:24px;height:24px;">
+      <img src="odoo.png" width="64" height="64" alt="Odoo" style="width:64px;height:64px;">
+    </div>
+    <h1 style="margin:0;font-size:40px;line-height:1.2;color:#101828;font-weight:700;">Farmaborsa Odoo Connector</h1>
+    <p style="margin:0;font-size:18px;line-height:1.5;max-width:740px;">Import Farmaborsa orders into Odoo as customer invoices and keep Farmaborsa customers and products matched to Odoo records, with Odoo stock sent back to Farmaborsa.</p>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:8px;"><span style="font-size:12px;font-weight:700;color:#344054;background:#fff;border-radius:50rem;padding:4px 10px;box-shadow:inset 0 0 0 1px #d0d5dd;">Pharmacy marketplace</span><span style="font-size:12px;font-weight:700;color:#344054;background:#fff;border-radius:50rem;padding:4px 10px;box-shadow:inset 0 0 0 1px #d0d5dd;">Odoo Online and self-hosted</span><span style="font-size:12px;font-weight:700;color:#344054;background:#fff;border-radius:50rem;padding:4px 10px;box-shadow:inset 0 0 0 1px #d0d5dd;">Sellers in Türkiye</span></div>
+  </div>
+
+  <div style="padding:48px 64px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;border-bottom:1px solid #e4e7ec;">
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <img src="icons/sync-096fa0.png" width="32" height="32" alt="" style="display:block;width:32px;height:32px;">
+        <h5 style="margin:0;font-size:16px;color:#101828;font-weight:700;">Automatic order import</h5>
+        <p style="margin:0;font-size:14px;line-height:1.5;">New Farmaborsa orders reach Odoo without manual entry.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <img src="icons/receipt_long-096fa0.png" width="32" height="32" alt="" style="display:block;width:32px;height:32px;">
+        <h5 style="margin:0;font-size:16px;color:#101828;font-weight:700;">Draft invoices</h5>
+        <p style="margin:0;font-size:14px;line-height:1.5;">Each Farmaborsa order becomes a draft customer invoice you review before posting.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <img src="icons/warehouse-096fa0.png" width="32" height="32" alt="" style="display:block;width:32px;height:32px;">
+        <h5 style="margin:0;font-size:16px;color:#101828;font-weight:700;">Stock from Odoo</h5>
+        <p style="margin:0;font-size:14px;line-height:1.5;">Choose the Odoo warehouse whose stock feeds Farmaborsa.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <img src="icons/link-096fa0.png" width="32" height="32" alt="" style="display:block;width:32px;height:32px;">
+        <h5 style="margin:0;font-size:16px;color:#101828;font-weight:700;">No duplicates</h5>
+        <p style="margin:0;font-size:14px;line-height:1.5;">Customers and products are matched to existing Odoo records first.</p>
+      </div>
+  </div>
+
+  <div style="padding:48px 64px;display:flex;flex-direction:column;gap:24px;">
+    <div style="display:flex;flex-direction:column;gap:8px;">
+      <h3 style="margin:0;font-size:28px;color:#101828;">What syncs between Farmaborsa and Odoo</h3>
+      <p style="margin:0;font-size:14px;">Each record maps to a standard Odoo model. No custom models are added.</p>
+    </div>
+    <div style="border:1px solid #d0d5dd;border-radius:12px;overflow:hidden;">
+      <div style="display:grid;grid-template-columns:180px 80px 200px 1fr;background:#f2f4f7;height:40px;align-items:center;padding:0 16px;font-size:12px;font-weight:700;color:#344054;">
+        <span>Farmaborsa</span><span>Direction</span><span>Odoo model</span><span>Behaviour</span>
+      </div>
+        <div style="display:grid;grid-template-columns:180px 80px 200px 1fr;min-height:40px;align-items:center;padding:8px 16px;border-top:1px solid #e4e7ec;font-size:14px;box-sizing:border-box;">
+          <span style="font-weight:700;color:#101828;">Orders</span>
+          <span style="color:#096fa0;font-size:20px;line-height:1;">→</span>
+          <code style="font-size:13px;color:#07425e;">account.move</code>
+          <span>Created as draft customer invoices, with order notes. Bulk push supported.</span>
+        </div>
+        <div style="display:grid;grid-template-columns:180px 80px 200px 1fr;min-height:40px;align-items:center;padding:8px 16px;border-top:1px solid #e4e7ec;font-size:14px;box-sizing:border-box;">
+          <span style="font-weight:700;color:#101828;">Customers</span>
+          <span style="color:#096fa0;font-size:20px;line-height:1;">→</span>
+          <code style="font-size:13px;color:#07425e;">res.partner</code>
+          <span>Created or matched by name or tax number. Matched contacts stay locked.</span>
+        </div>
+        <div style="display:grid;grid-template-columns:180px 80px 200px 1fr;min-height:40px;align-items:center;padding:8px 16px;border-top:1px solid #e4e7ec;font-size:14px;box-sizing:border-box;">
+          <span style="font-weight:700;color:#101828;">Products</span>
+          <span style="color:#096fa0;font-size:20px;line-height:1;">⇄</span>
+          <code style="font-size:13px;color:#07425e;">product.product</code>
+          <span>Created in Odoo or linked to an existing product. Custom names supported.</span>
+        </div>
+        <div style="display:grid;grid-template-columns:180px 80px 200px 1fr;min-height:40px;align-items:center;padding:8px 16px;border-top:1px solid #e4e7ec;font-size:14px;box-sizing:border-box;">
+          <span style="font-weight:700;color:#101828;">Stock</span>
+          <span style="color:#096fa0;font-size:20px;line-height:1;">←</span>
+          <code style="font-size:13px;color:#07425e;">stock.location</code>
+          <span>Quantities from the selected Odoo warehouse update Farmaborsa.</span>
+        </div>
+        <div style="display:grid;grid-template-columns:180px 80px 200px 1fr;min-height:40px;align-items:center;padding:8px 16px;border-top:1px solid #e4e7ec;font-size:14px;box-sizing:border-box;">
+          <span style="font-weight:700;color:#101828;">Payments</span>
+          <span style="color:#096fa0;font-size:20px;line-height:1;">→</span>
+          <code style="font-size:13px;color:#07425e;">account.move</code>
+          <span>Pushed invoices can be marked as paid in Odoo.</span>
+        </div>
+    </div>
+  </div>
+
+  <div style="padding:48px 64px;background:#f6f5f3;display:flex;flex-direction:column;gap:24px;">
+    <div style="display:flex;flex-direction:column;gap:8px;">
+      <h3 style="margin:0;font-size:28px;color:#101828;">Farmaborsa features</h3>
+      <p style="margin:0;font-size:14px;">Managed from the Yengeç panel that runs this connector.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;">
+        <div style="background:#fff;border:1px solid #d0d5dd;border-radius:12px;padding:16px;display:flex;align-items:center;gap:12px;">
+          <img src="icons/add_box-096fa0.png" width="24" height="24" alt="" style="display:block;width:24px;height:24px;">
+          <span style="font-size:14px;font-weight:700;color:#101828;">Product listing</span>
+        </div>
+        <div style="background:#fff;border:1px solid #d0d5dd;border-radius:12px;padding:16px;display:flex;align-items:center;gap:12px;">
+          <img src="icons/edit_note-096fa0.png" width="24" height="24" alt="" style="display:block;width:24px;height:24px;">
+          <span style="font-size:14px;font-weight:700;color:#101828;">Product updates</span>
+        </div>
+        <div style="background:#fff;border:1px solid #d0d5dd;border-radius:12px;padding:16px;display:flex;align-items:center;gap:12px;">
+          <img src="icons/sync-096fa0.png" width="24" height="24" alt="" style="display:block;width:24px;height:24px;">
+          <span style="font-size:14px;font-weight:700;color:#101828;">Price and stock sync</span>
+        </div>
+        <div style="background:#fff;border:1px solid #d0d5dd;border-radius:12px;padding:16px;display:flex;align-items:center;gap:12px;">
+          <img src="icons/download-096fa0.png" width="24" height="24" alt="" style="display:block;width:24px;height:24px;">
+          <span style="font-size:14px;font-weight:700;color:#101828;">Product import</span>
+        </div>
+        <div style="background:#fff;border:1px solid #d0d5dd;border-radius:12px;padding:16px;display:flex;align-items:center;gap:12px;">
+          <img src="icons/upload_file-096fa0.png" width="24" height="24" alt="" style="display:block;width:24px;height:24px;">
+          <span style="font-size:14px;font-weight:700;color:#101828;">Invoice upload</span>
+        </div>
+        <div style="background:#fff;border:1px solid #d0d5dd;border-radius:12px;padding:16px;display:flex;align-items:center;gap:12px;">
+          <img src="icons/assignment_return-096fa0.png" width="24" height="24" alt="" style="display:block;width:24px;height:24px;">
+          <span style="font-size:14px;font-weight:700;color:#101828;">Return tracking</span>
+        </div>
+    </div>
+  </div>
+
+  <div style="padding:48px 64px;display:flex;flex-direction:column;gap:24px;">
+    <h3 style="margin:0;font-size:28px;color:#101828;">Connect Farmaborsa to Odoo in three steps</h3>
+    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;">
+        <div style="border:1px solid #d0d5dd;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:8px;">
+          <span style="width:32px;height:32px;border-radius:50rem;background:#e8f8ff;color:#07425e;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;">1</span>
+          <h5 style="margin:0;font-size:16px;color:#101828;font-weight:700;">Click Farmaborsa in Odoo</h5>
+          <p style="margin:0;font-size:14px;line-height:1.5;">An Odoo administrator installs this app and clicks the Farmaborsa icon. Yengeç opens with your Odoo already connected.</p>
+        </div>
+        <div style="border:1px solid #d0d5dd;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:8px;">
+          <span style="width:32px;height:32px;border-radius:50rem;background:#e8f8ff;color:#07425e;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;">2</span>
+          <h5 style="margin:0;font-size:16px;color:#101828;font-weight:700;">Connect Farmaborsa</h5>
+          <p style="margin:0;font-size:14px;line-height:1.5;">Enter the API credentials from your Farmaborsa seller panel.</p>
+        </div>
+        <div style="border:1px solid #d0d5dd;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:8px;">
+          <span style="width:32px;height:32px;border-radius:50rem;background:#e8f8ff;color:#07425e;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;">3</span>
+          <h5 style="margin:0;font-size:16px;color:#101828;font-weight:700;">Choose what syncs</h5>
+          <p style="margin:0;font-size:14px;line-height:1.5;">Pick Farmaborsa order statuses, the warehouse and invoice settings. Orders start flowing.</p>
+        </div>
+    </div>
+  </div>
+
+  <div style="padding:0 64px 48px;">
+    <div style="background:#f2f4f7;border-radius:12px;padding:24px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;">
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <h5 style="margin:0;font-size:16px;color:#101828;font-weight:700;">Requirements</h5>
+          <div style="display:flex;gap:8px;font-size:14px;line-height:1.5;"><img src="icons/info-667085.png" width="20" height="20" alt="" style="display:block;width:20px;height:20px;"><span>A Farmaborsa seller account in Türkiye</span></div>
+          <div style="display:flex;gap:8px;font-size:14px;line-height:1.5;"><img src="icons/info-667085.png" width="20" height="20" alt="" style="display:block;width:20px;height:20px;"><span>An Odoo company in Türkiye, with access to Invoicing, Contacts and Inventory</span></div>
+          <div style="display:flex;gap:8px;font-size:14px;line-height:1.5;"><img src="icons/info-667085.png" width="20" height="20" alt="" style="display:block;width:20px;height:20px;"><span>A Yengeç account. The sync runs on the Yengeç integration service.</span></div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <h5 style="margin:0;font-size:16px;color:#101828;font-weight:700;">Data shared</h5>
+        <p style="margin:0;font-size:14px;line-height:1.5;">The connector reads and writes invoices, contacts, products and stock in your Odoo database through an API key the app creates for you when you click its icon. Farmaborsa order data is processed by Yengeç, the integration service that runs the sync. No data is shared with third parties.</p>
+      </div>
     </div>
   </div>
 </section>
-</body>
-</html>

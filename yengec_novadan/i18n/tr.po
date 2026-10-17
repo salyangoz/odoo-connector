@@ -22,5 +22,5 @@ msgstr "Novadan Kurulum"
 msgid "Novadan"
 msgstr "Novadan"
 
-msgid "Sync Odoo with Novadan marketplace"
-msgstr "Odoo'yu Novadan pazaryeri ile senkronize edin"
+msgid "Novadan orders, customers, products and stock, synced with Odoo"
+msgstr "Novadan siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

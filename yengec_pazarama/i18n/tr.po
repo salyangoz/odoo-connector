@@ -22,5 +22,5 @@ msgstr "Pazarama Kurulum"
 msgid "Pazarama"
 msgstr "Pazarama"
 
-msgid "Sync Odoo with Pazarama marketplace"
-msgstr "Odoo'yu Pazarama pazaryeri ile senkronize edin"
+msgid "Pazarama orders, customers, products and stock, synced with Odoo"
+msgstr "Pazarama siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

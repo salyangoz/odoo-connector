@@ -2,17 +2,15 @@
     'name': 'Pazarama Connector',
     'version': '19.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with Pazarama marketplace',
-    'description': (
-        'Connect your Odoo to Pazarama via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla Pazarama ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Pazarama orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Pazarama orders into Odoo as customer invoices and keep Pazarama customers and products matched to Odoo records, with Odoo stock sent back to Pazarama. Install it, click the Pazarama icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/pazarama_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

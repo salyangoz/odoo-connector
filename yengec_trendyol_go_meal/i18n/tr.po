@@ -22,5 +22,5 @@ msgstr "Trendyol Go Yemek Kurulum"
 msgid "Trendyol Go Yemek"
 msgstr "Trendyol Go Yemek"
 
-msgid "Sync Odoo with Trendyol Go Yemek marketplace"
-msgstr "Odoo'yu Trendyol Go Yemek pazaryeri ile senkronize edin"
+msgid "Trendyol Go Yemek orders, customers, products and stock, synced with Odoo"
+msgstr "Trendyol Go Yemek siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

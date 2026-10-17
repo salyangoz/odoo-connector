@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Amazon Vendor Central Connector"
-msgstr "Amazon Vendor Central Bağlayıcı"
+msgid "Amazon Vendor Connector"
+msgstr "Amazon Vendor Bağlayıcı"
 
-msgid "Amazon Vendor Central Setup"
-msgstr "Amazon Vendor Central Kurulum"
+msgid "Amazon Vendor Setup"
+msgstr "Amazon Vendor Kurulum"
 
-msgid "Amazon Vendor Central"
-msgstr "Amazon Vendor Central"
+msgid "Amazon Vendor"
+msgstr "Amazon Vendor"
 
-msgid "Sync Odoo with Amazon Vendor Central marketplace"
-msgstr "Odoo'yu Amazon Vendor Central pazaryeri ile senkronize edin"
+msgid "Amazon Vendor orders, customers and products, synced with Odoo"
+msgstr "Amazon Vendor siparişleri, müşterileri, ürünleri Odoo ile senkronize"

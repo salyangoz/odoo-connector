@@ -1,18 +1,16 @@
 {
-    'name': 'Amazon Seller America Connector',
+    'name': 'Amazon America Connector',
     'version': '19.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with Amazon Seller America marketplace',
-    'description': (
-        'Connect your Odoo to Amazon Seller America via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla Amazon Seller America ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Amazon America orders, customers, products and stock, synced with Odoo',
+    'description': 'Import Amazon America orders into Odoo as customer invoices and keep Amazon America customers and products matched to Odoo records, with Odoo stock sent back to Amazon America. Install it, click the Amazon America icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/amazon_america_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

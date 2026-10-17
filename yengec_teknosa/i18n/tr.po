@@ -22,5 +22,5 @@ msgstr "Teknosa Kurulum"
 msgid "Teknosa"
 msgstr "Teknosa"
 
-msgid "Sync Odoo with Teknosa marketplace"
-msgstr "Odoo'yu Teknosa pazaryeri ile senkronize edin"
+msgid "Teknosa orders, customers, products and stock, synced with Odoo"
+msgstr "Teknosa siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

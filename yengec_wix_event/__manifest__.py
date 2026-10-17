@@ -1,18 +1,16 @@
 {
-    'name': 'Wix Event Connector',
+    'name': 'Wix Events Connector',
     'version': '19.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with Wix Event store',
-    'description': (
-        'Connect your Odoo to Wix Event via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla Wix Event ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'Wix Events orders, customers and products, synced with Odoo',
+    'description': 'Import Wix Events orders into Odoo as customer invoices and keep Wix Events customers and products matched to Odoo records. Install it, click the Wix Events icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/wix_event_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

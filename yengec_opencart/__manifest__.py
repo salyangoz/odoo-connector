@@ -2,17 +2,15 @@
     'name': 'OpenCart Connector',
     'version': '19.0.1.0.0',
     'category': 'eCommerce',
-    'summary': 'Sync Odoo with OpenCart store',
-    'description': (
-        'Connect your Odoo to OpenCart via Yengeç – guided setup. '
-        'Odoo\'yu Yengeç aracılığıyla OpenCart ile bağlayın – adım adım kurulum.'
-    ),
+    'summary': 'OpenCart orders, customers, products and stock, synced with Odoo',
+    'description': 'Import OpenCart orders into Odoo as customer invoices and keep OpenCart customers and products matched to Odoo records, with Odoo stock sent back to OpenCart. Install it, click the OpenCart icon in Odoo and Yengeç opens with your Odoo connected.',
     'author': 'Yengeç',
     'website': 'https://yengec.co',
     'support': 'iletisim@yengec.co',
     'license': 'LGPL-3',
     'depends': ['yengec_connector'],
     'data': ['views/opencart_menu.xml'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

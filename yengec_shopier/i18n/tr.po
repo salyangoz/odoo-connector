@@ -22,5 +22,5 @@ msgstr "Shopier Kurulum"
 msgid "Shopier"
 msgstr "Shopier"
 
-msgid "Sync Odoo with Shopier store"
-msgstr "Odoo'yu Shopier mağaza ile senkronize edin"
+msgid "Shopier orders, customers, products and stock, synced with Odoo"
+msgstr "Shopier siparişleri, müşterileri, ürünleri ve stokları Odoo ile senkronize"

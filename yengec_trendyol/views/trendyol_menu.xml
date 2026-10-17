@@ -3,7 +3,7 @@
     <record id="action_yengec_trendyol_launch" model="ir.actions.server">
         <field name="name">Trendyol Setup</field>
         <field name="model_id" ref="base.model_res_users"/>
-        <field name="group_ids" eval="[(4, ref('base.group_user'))]"/>
+        <field name="group_ids" eval="[(6, 0, [ref('base.group_system')])]"/>
         <field name="state">code</field>
         <field name="code">action = env.ref('yengec_connector.action_yengec_setup').with_context(yengec_integration='trendyol').run()</field>
     </record>
@@ -11,6 +11,7 @@
         id="menu_yengec_trendyol_root"
         name="Trendyol"
         sequence="102"
+        groups="base.group_system"
         web_icon="yengec_trendyol,static/description/icon.png"
         action="action_yengec_trendyol_launch"
     />
